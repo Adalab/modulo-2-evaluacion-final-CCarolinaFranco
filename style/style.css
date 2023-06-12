@@ -1,0 +1,50 @@
+
+main{
+    background-color: rgb(156, 184, 202);
+    
+    height: 100vh;
+}
+
+
+.ulcharacter {
+    
+    display:flex ;
+    width: 170px;
+    height: 150px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.liCards{
+width: 50px;
+
+
+}
+
+.personajes{
+
+width: 100%;
+height: 100%,
+
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.search{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lebel{
+    padding-right: 10px;
+}
