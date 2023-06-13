@@ -1,4 +1,4 @@
-/* General styles */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -10,10 +10,14 @@ body {
   h1 {
     text-align: center;
     margin: 20px 0;
+    font-family: cursive;
+    color: #5c7278;
   }
   
   h2 {
     margin: 10px 0;
+    font-family: cursive;
+    color: #658b96;
   }
   
   ul {
@@ -24,11 +28,11 @@ body {
 
   }
   
-  /* Card styles */
+  /* Card  */
   
   .personajes {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(24, 105, 186, 0.1);
@@ -46,7 +50,7 @@ body {
     text-align: center;
   }
   
-  /* Search form styles */
+  /* Search */
   
   .search {
     text-align: center;
@@ -59,7 +63,7 @@ body {
   }
   
   .inputbuscar {
-    width: 700px;
+    width: 600px;
     padding: 5px;
     border: 3px solid royalblue;
     border-radius: 5px;
@@ -73,13 +77,14 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: cursive;
   }
   
   .js-btnBuscar:hover {
     background-color: #0056b3;
   }
   
-  /* Favorite characters section styles */
+  /* Favorito characters */
     
 
   .container {
@@ -88,13 +93,16 @@ body {
   
   
   .sidebar {
-    position: fixed;
+    /*position: fixed;*/
+    position: sticky;    
+
     top: 0;
-    left: 0;
-    height: 100%; /* Set the height of the sidebar */
-    width: 200px; /* Set the width of the sidebar */
+    left: 0; 
+    height: 100%; 
+    width: 200px; 
     background-color: #f1f1f1;
     padding: 20px;
+    float: left;
   }
 
 
@@ -120,10 +128,15 @@ body {
   }
 
  
-
+footer{
+    background-color: royalblue;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
   
   
-  /* Responsive styles */
+  /* Responsive */
   
   @media (max-width: 768px) {
     .personajes {
@@ -156,53 +169,3 @@ body {
 
 
 
-/*
-main{
-    background-color: rgb(156, 184, 202);
-    
-    height: 100vh;
-}
-
-
-.ulcharacter {
-    
-    display:flex ;
-    width: 170px;
-    height: 150px;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.liCards{
-width: 50px;
-
-
-}
-
-.personajes{
-
-width: 100%;
-height: 100%,
-
-
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-
-}
-.search{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.lebel{
-    padding-right: 10px;
-}

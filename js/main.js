@@ -38,9 +38,6 @@ function initiate() {
 
 ///rende de la lista de characters (la <li> se crea desde aqui en la const hml y con literals del api) que hice mal aqui?
 function renderCharacterList(characterList) {
-
-  
-
   let html = '';
   characterList.forEach((character) => {
   //for (const character of characterList) {
