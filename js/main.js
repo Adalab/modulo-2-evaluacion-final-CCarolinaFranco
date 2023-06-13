@@ -118,10 +118,10 @@ const indexFav = favcharacterList.findIndex((item) => item._id === id); ///to se
 
 if(indexFav === -1){
 favcharacterList.push(selectedLiCard);//to do the push, get the array created to put in all the pushed item ".push" in 
-
+favcharacters.classList.toggle('favorite');
 }
 else{favcharacterList.splice(indexFav, 1);/// no me  muy queda claro el splice en este ejemplo pero es para sacar el item de la lista. indexfav es la posicion y 1 seria la cantidad de items? 
-
+favcharacters.classList.toggle('favorite');
 }
 //console.log(favcharacterList);
 //in the case if a list such as favs list we Cant call the local storage Before the event of selecting the items, Has to be After the event of selecting happend.

@@ -1,4 +1,162 @@
+/* General styles */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  /* Card styles */
+  
+  .personajes {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(24, 105, 186, 0.1);
+  }
+  
+  .personajes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .personajes h3 {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  /* Search form styles */
+  
+  .search {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .lebel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputbuscar {
+    width: 700px;
+    padding: 5px;
+    border: 3px solid royalblue;
+    border-radius: 5px;
+  }
+  
+  .btnBuscar {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #a28ee5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .js-btnBuscar:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Favorite characters section styles */
+    
+
+  .container {
+    display: flex;
+  }
+  
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* Set the height of the sidebar */
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+
+  .js-favcharacters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+    margin-top: 20px;
+
+
+  }
+
+  .js-favcharacters .liCards {
+    width: 200px;
+    height: auto;
+    background-color: #658b96;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(127, 163, 195, 0.1);
+  }
+
+ 
+
+  
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .personajes {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .inputbuscar {
+      width: 200px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 main{
     background-color: rgb(156, 184, 202);
     

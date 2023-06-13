@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-   
     <main>
-        <h1>Disney Character</h1>
+      <h1>Disney Character</h1>
 
       <form class="search">
-        <label class="lebel" text="">Character </label>
-        <input type="text" placeholder="Nombre de un personaje" class="inputbuscar js-inputbuscar"/>
-        <button class="js-btnBuscar js-btnBuscar">Buscar</button>
+        <label class="lebel" text="">Characters </label>
+        <input
+          type="text"
+          placeholder="Nombre de un personaje"
+          class="inputbuscar js-inputbuscar"
+        />
+        <button class="btnBuscar js-btnBuscar">Buscar</button>
       </form>
 
-      <ul class= "ulcharacter js-characters "></ul>
-
-    <div>
-      <h2>Personajes Favoritos</h2>
-      <ul class= "ulcharacter js-favcharacters"></ul>
-    </div>
-      
-      
+      <ul class="ulcharacter js-characters"></ul>
+      <section class="container">
+        <div class="sidebar">
+          <h2>Personajes Favoritos</h2>
+          <ul class="ulcharacter js-favcharacters"></ul>
+        </div>
+      </section>
     </main>
     <script src="js/main.js"></script>
   </body>
